@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Commelier
 tagline:          'Android Developer'
-description:      'I know my value<p>Android Developer<p>Seoul to anywhere'
+description:      'I know my value<br>Android Developer<br>Seoul to anywhere'
 url:              http://commelier.github.io
 baseurl:          /
 
