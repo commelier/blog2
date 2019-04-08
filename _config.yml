@@ -1,25 +1,39 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
+#Dependencies
+markdown: kramdown
+highlighter: rouge
+## Permalinks
 permalink:        pretty
-
-# Setup
+#
+## Setup
 title:            Commelier
 tagline:          'Android Developer'
-description:      'Code + Sommelier<br><b>Android Developer</b><br>Seoul to anywhere'
+description:      'Code + Sommelier<br>Android Developer<br>Seoul to anywhere'
 url:              http://commelier.github.io
 baseurl:          /
-
+#
 author:           'Commelier'
-  name:           'Commelier'
-  url:            https://twitter.com/sherrious_ryu
+name:           'Commelier'
+url:            https://twitter.com/sherrious_ryu
 
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
 paginate:         10
 
 # Custom vars
 version:          1.0.0
 
 github:
-  repo:           https://github.com/commelier
+repo:           https://github.com/commelier
+
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
