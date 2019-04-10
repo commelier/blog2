@@ -1,4 +1,0 @@
----
-name: Korean
-title: Korean
----

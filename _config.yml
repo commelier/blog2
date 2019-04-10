@@ -26,15 +26,15 @@ github:         commelier
 repo:           https://github.com/commelier
 twitter: sherrious_ryu
 linked_in: bomee-ryu
-
-collections:
-  tags:
-    output: true
-    permalink: /tags/:path/
-
-defaults:
-  - scope:
-      path: ''
-      type: tags
-    values:
-      layout: tag
+#
+# collections:
+#   tags:
+#     output: true
+#     permalink: /tags/:path/
+#
+# defaults:
+#   - scope:
+#       path: ''
+#       type: tags
+#     values:
+#       layout: tag
