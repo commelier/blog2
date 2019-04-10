@@ -1,4 +1,0 @@
----
-name: IT
-title: IT
----

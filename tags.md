@@ -1,7 +1,4 @@
 ---
 layout: page
-title: tags
+title: tag
 ---
-
-{% assign sorted_tags = site.data.tags | sort:"name" %} {% for tag in sorted_tags %} {% include tag_link_formatter.html tag=tag tag_separator='
-' %} {% endfor %}

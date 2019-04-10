@@ -1,4 +1,0 @@
----
-name: English
-title: English
----
