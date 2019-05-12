@@ -13,7 +13,8 @@ baseurl:          /
 author:           'Commelier'
 name:           'Commelier'
 url:            https://twitter.com/sherrious_ryu
-#commmit test
+google_analytics_id: UA-140042027-1
+
 plugins:
   - jekyll-paginate
   - jekyll-gist
