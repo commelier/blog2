@@ -7,8 +7,8 @@ permalink:        pretty
 title:            Commelier
 tagline:          'Android Developer'
 description:      'Code + Sommelier<br>Android Developer<br>Seoul to anywhere'
-url:              http://commelier.github.io
-baseurl:          http://commelier.github.io/
+url:              https://commelier.github.io
+baseurl:          /
 
 author:           'Commelier'
 name:           'Commelier'
