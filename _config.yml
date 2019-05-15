@@ -17,6 +17,7 @@ google_analytics_id: UA-140042027-1
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
 paginate:         5
 
 # Custom vars
