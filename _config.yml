@@ -8,7 +8,7 @@ title:            Commelier
 tagline:          'Android Developer'
 description:      'Code + Sommelier<br>Android Developer<br>Seoul to anywhere'
 url:              https://commelier.github.io
-baseurl:          /
+baseurl:          ''
 
 author:           'Commelier'
 name:           'Commelier'
@@ -17,7 +17,7 @@ google_analytics_id: UA-140042027-1
 plugins:
   - jekyll-paginate
   - jekyll-gist
-paginate:         10
+paginate:         5
 
 # Custom vars
 version:          1.0.0
